@@ -1,8 +1,6 @@
 # Collections - Refresh 2024
 
 - w3schools basic Collection examples
-- 
-
 
 - Test Folder:
   [**WeirdListTest.java**] - Mike Miller Nielsen YouTube: 
