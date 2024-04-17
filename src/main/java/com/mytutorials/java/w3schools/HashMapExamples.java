@@ -1,8 +1,6 @@
 package com.mytutorials.java.w3schools;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.UUID;
+import java.util.*;
 
 public class HashMapExamples {
 
@@ -50,9 +48,13 @@ public class HashMapExamples {
 
         People person1 = new People(43, "Marcus");
         People person2 = new People(33, "Sara");
+        People person3 = new People(22, "Linda");
+
 
         peoplesMap.put(UUID.randomUUID(), person1);
         peoplesMap.put(UUID.randomUUID(), person2);
+        peoplesMap.put(UUID.randomUUID(), person3);
+
 
         // Print values
         for (People p : peoplesMap.values()) {
